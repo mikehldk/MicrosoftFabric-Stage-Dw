@@ -1,0 +1,5 @@
+[
+    {"src_schema":"vendas", "src_table":"tbProduto",        "dst_schema":"vendas",  "dst_table":"tbProduto"},
+    {"src_schema":"vendas", "src_table":"tbVendas",         "dst_schema":"vendas",  "dst_table":"tbVendas"},
+    {"src_schema":"vendas", "src_table":"tbItensVendas",    "dst_schema":"vendas",  "dst_table":"tbItensVendas"}
+]
