@@ -142,8 +142,6 @@ Cada procedure aceita `@modo = 'FULL'` ou `@modo = 'INCR'`.
 
 O mesmo Pipeline que faz a ingestão OLTP → Stage é estendido com um **Execute Stored Procedure** apontando para `sp_carga_Full` ou `sp_carga_Incremental`.
 
-![Pipeline de orquestração](assets/pipeline-orquestracao.png)
-
 Fluxo final do Pipeline:
 
 ```
@@ -166,7 +164,7 @@ Isola a lógica de limpeza (case, datas, nulos) das procedures de carga. Facilit
 
 ## 📺 Vídeo
 
-> 🔗 [Assista no YouTube](#) ← adicione o link após publicar
+> 🔗 https://youtu.be/KIuoOvZLU2A
 
 ---
 
