@@ -89,9 +89,6 @@ A cópia é feita via **Copy Data Activity** dentro de um Pipeline.
 ]
 ```
 
-![Configuração do mapeamento no Copy Data](assets/copy-data-mapping.png)
-
-
 ### 5. Views de tratamento no DW
 
 Antes de executar as procedures de carga, criamos views no Warehouse `Dw` que leem as tabelas da Stage via cross-warehouse query e encapsulam todo o tratamento: normalização de case, padronização de datas e tratamento de nulos.
